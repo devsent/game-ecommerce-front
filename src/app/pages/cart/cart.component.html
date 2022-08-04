@@ -1,0 +1,198 @@
+<section class="h-100">
+    <div class="container h-100 py-5">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <!-- Shopping cards -->
+            <div class="col-10 cards-wrapper">
+                <!-- Header -->
+                <div class="d-flex header justify-content-between align-items-center mb-4 border-bottom py-2">
+                    <h3 class="mb-0">Sacola</h3>
+                    <div class="bg-transparent">
+                        <p class="mb-0" style="color: #73bbaf">4 itens</p>
+                    </div>
+                </div>
+
+                <!-- Item Card -->
+                <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                        <div class="row item d-flex justify-content-between align-items-center">
+                            <div class="col-md-2 bg-transparent">
+                                <img src="../../../assets/images/stray-cover.jpg" class="img-fluid rounded-3"
+                                    alt="Product Image">
+                            </div>
+                            <div class="col-md-3 bg-transparent">
+                                <p class="lead fw-normal my-2">Stray</p>
+                                <div class="d-flex bg-transparent">
+                                    <p><span class="text-muted">Plataforma: </span>PS5</p>
+                                    <p class="ms-2"><span class="text-muted">Formato: </span>Digital</p>
+                                </div>
+                            </div>
+
+                            <!-- Inc/Decrement input -->
+                            <div class="col-md-3 d-flex bg-transparent">
+                                <button class="btn btn-link px-2 add-remove"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-dash-lg bg-transparent" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z" />
+                                    </svg>
+                                </button>
+
+                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                    class="form-control form-control-sm acc text-muted arrows" />
+
+                                <button class="btn btn-link px-2 pt-1 add-remove"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-plus-lg bg-transparent" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <!-- Inc/Decrement input -->
+
+                            <div class="col-md-2 offset-lg-1 bg-transparent">
+                                <h5 class="mt-3">R$ 299,00</h5>
+                            </div>
+                            <div class="col-md-1 mb-0 text-end bg-transparent">
+                                <a href="#!" class="bg-transparent"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                        height="16" fill="currentColor" class="bi bi-trash-fill bg-transparent"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                        <div class="row item d-flex justify-content-between align-items-center">
+                            <div class="col-md-2 bg-transparent">
+                                <img src="../../../assets/images/ac-valhalla-cover.jpg" class="img-fluid rounded-3"
+                                    alt="Product Image">
+                            </div>
+                            <div class="col-md-3 bg-transparent">
+                                <p class="lead fw-normal my-2">Assassin's Creed: Valhalla</p>
+                                <div class="d-flex bg-transparent">
+                                    <p><span class="text-muted">Plataforma: </span>Xbox Series X | S</p>
+                                    <p class="ms-2"><span class="text-muted">Formato: </span>Digital</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 d-flex bg-transparent">
+                                <button class="btn btn-link px-2 add-remove"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-dash-lg bg-transparent" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z" />
+                                    </svg>
+                                </button>
+
+                                <input id="form1" min="0" name="quantity" value="2" type="number"
+                                    class="form-control form-control-sm acc text-muted arrows" />
+
+                                <button class="btn btn-link px-2 pt-1 add-remove"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-plus-lg bg-transparent" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="col-md-2 offset-lg-1 bg-transparent">
+                                <h5 class="mt-3">R$ 249,00</h5>
+                            </div>
+                            <div class="col-md-1 mb-0 text-end bg-transparent">
+                                <a href="#!" class="bg-transparent"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                        height="16" fill="currentColor" class="bi bi-trash-fill bg-transparent"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                        <div class="row item d-flex justify-content-between align-items-center">
+                            <div class="col-md-2 bg-transparent">
+                                <img src="../../../assets/images/nba-2k22-cover.jpg" class="img-fluid rounded-3"
+                                    alt="Product Image">
+                            </div>
+                            <div class="col-md-3 bg-transparent">
+                                <p class="lead fw-normal my-2">NBA 2K22</p>
+                                <div class="d-flex bg-transparent">
+                                    <p><span class="text-muted">Plataforma: </span>PS4</p>
+                                    <p class="ms-2"><span class="text-muted">Formato: </span>Físico</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 d-flex bg-transparent">
+                                <button class="btn btn-link px-2 add-remove"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-dash-lg bg-transparent" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z" />
+                                    </svg>
+                                </button>
+
+                                <input id="form1" min="0" name="quantity" value="3" type="number"
+                                    class="form-control form-control-sm acc text-muted arrows" />
+
+                                <button class="btn btn-link px-2 pt-1 add-remove"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-plus-lg bg-transparent" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="col-md-2 offset-lg-1 bg-transparent">
+                                <h5 class="mt-3">R$ 199,00</h5>
+                            </div>
+                            <div class="col-md-1 mb-0 text-end bg-transparent">
+                                <a href="#!" class="bg-transparent"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                        height="16" fill="currentColor" class="bi bi-trash-fill bg-transparent"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item Card -->
+
+                <!-- Discount & Checkout -->
+                <div class="card mb-4">
+                    <div class="card-body p-4 d-flex flex-row align-items-center">
+                        <div class=" form-outline bg-transparent flex-fill">
+                            <input type="text" id="form1" class="form-control form-control-lg"
+                                placeholder="Cupom de desconto" aria-label="Cupom de desconto" />
+                        </div>
+                        <app-button class="btn ms-3 p-0 pb-2 bg-transparent" text="Aplicar"></app-button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex header justify-content-between align-items-center mb-4 border-bottom py-2">
+                            <h3 class="mb-0">Total</h3>
+                            <div class="bg-transparent">
+                                <p class="mb-0 fs-5" style="color: #73bbaf">R$ 747,00</p>
+                            </div>
+                        </div>
+                        <app-button class="btn-lg btn-block p-0" text="Fechar Pedido"></app-button>
+                    </div>
+                </div>
+                <!-- Discount & Checkout -->
+            </div>
+            <!-- Shopping cards -->
+        </div>
+    </div>
+</section>

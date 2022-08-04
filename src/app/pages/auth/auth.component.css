@@ -1,0 +1,7 @@
+/* Responsive */
+
+@media (max-width:768px) {
+    .signup-card {
+        margin-top: 2em;
+    }
+}

@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'Ubuntu', sans-serif;
+    color: #17b890;
+    background-color: #1b2d2a;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Color Palette */
+/* color: #70798c */
+/* color: #f5f1ed */
+/* color: #17b890 */
+/* color: #1b2d2a */
+/* color: #000000 */
+
+/* Text */
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* Links */
+
+a {
+    cursor: pointer;
+    color: #8894ac !important;
+    text-decoration: none !important;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #17b890 !important;
+    opacity: 0.8;
+    text-decoration: none;
+    transition: 0.2s;
+}

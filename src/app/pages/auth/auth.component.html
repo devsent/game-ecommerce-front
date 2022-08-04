@@ -1,0 +1,55 @@
+<section class="auth-area">
+    <div class="container my-4">
+        <div class="row">
+
+            <!-- Login card -->
+            <div class="login-card col-md-6">
+                <div class="card p-4 bg-transparent border-success">
+                    <div class="card-body d-flex flex-column">
+                        <div class="border-bottom border-success">
+                            <h2 class="fw-bold">Já sou cadastrado</h2>
+                        </div>
+                        <label for="inputEmail" class="col-sm-2 col-form-label my-2">E-mail</label>
+                        <input type="email" class="form-control" id="inputEmail">
+                        <label for="inputPassword" class="col-sm-2 col-form-label my-2">Password</label>
+                        <input type="password" class="form-control" id="inputPassword">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-unlock-fill mx-1" viewBox="0 0 16 16">
+                                <path
+                                    d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2z" />
+                            </svg>
+                            <a href="#" class="align-self-end my-3">Esqueceu a senha?</a>
+                        </div>
+                        <app-button text="Entrar"></app-button>
+                    </div>
+                </div>
+            </div>
+            <!-- Login card -->
+
+            <!-- Signup card -->
+            <div class="signup-card col-md-6">
+                <div class="card p-4 bg-transparent border-success h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div class="border-bottom border-success">
+                            <h2 class="fw-bold">Ainda não possuo cadastro</h2>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h6 class="fw-bold align-self-center my-2" style="color: #8894ac;">Primeiro
+                                acesso?
+                            </h6>
+                            <h6 class="fw-normal align-self-center my-2" style="color: #8894ac;">Cadastre seu email
+                                abaixo!
+                            </h6>
+                            <label for="inptEmail" class="col-sm-2 col-form-label my-2">E-mail</label>
+                            <input type="email" class="form-control mb-4" id="inptEmail">
+                            <app-button text="Cadastrar"></app-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Signup card -->
+
+        </div>
+    </div>
+</section>

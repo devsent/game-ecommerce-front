@@ -1,0 +1,86 @@
+/* Gallery Box */
+
+.lightbox {
+    border-radius: 0.2em;
+    border: white solid 0.1em;
+}
+
+.thumb {
+    width: 92px;
+    height: 92px;
+}
+
+.main-img {
+    width: 1000px;
+    height: 1000px;
+}
+
+/* Card */
+
+.card {
+    border: none;
+}
+
+.acc {
+    background: transparent;
+    border-color: rgba(83, 83, 83, 0.75);
+    color: white;
+    font-weight: 600;
+}
+
+.text-muted {
+    color: #8894ac !important;
+}
+
+.border-bottom {
+    border-color: rgba(136, 148, 172, 0.5) !important;
+}
+
+.form-control {
+    text-align: center;
+}
+
+.form-control:focus {
+    border-color: rgba(37, 255, 200, 0.40);
+    box-shadow: 0 0 0 0.25rem rgb(23 184 144 / 25%);
+}
+
+.arrows::-webkit-outer-spin-button,
+.arrows::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.add-remove:focus {
+    border-color: none;
+    box-shadow: 0 0 0 0.25rem rgb(23 184 144 / 25%);
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: #172724;
+    color: #8894ac;
+}
+
+.table>:not(caption)>*>* {
+    background-color: #1b2d2a;
+    color: #8894ac;
+}
+
+.desc-title span::before {
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #347c6f;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+.desc-title::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #8894ac;
+    opacity: .5;
+}

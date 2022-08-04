@@ -1,0 +1,82 @@
+/* Banners Carousel Styling */
+
+@media (max-width:768px) {
+    .banner-img {
+        height: auto !important;
+        width: 100vw;
+    }
+}
+
+.banner-img {
+    height: 500px;
+    object-fit: cover;
+    opacity: 90%;
+}
+
+.banners-carousel h5 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000000;
+    background: transparent;
+}
+
+.banners-carousel p {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 2px #000000;
+    background: transparent;
+}
+
+.highlight-desc {
+    border-radius: 2em;
+    background: transparent;
+}
+
+/* Cards Styling */
+
+.carousel-highlights {
+    position: relative;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+}
+
+.card-subtitle {
+    font-size: 0.8rem;
+    width: fit-content;
+    border: solid #8894ac 0.1em;
+    color: #fff;
+    padding: 0.4em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.card-img {
+    width: 280x;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 0.6em;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card-img:hover {
+    opacity: 80%;
+    transition: 0.2s;
+}
+
+.highlights-indicators {
+    position: absolute;
+    bottom: -3rem;
+}

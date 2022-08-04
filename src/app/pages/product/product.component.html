@@ -1,0 +1,202 @@
+<section class="product">
+    <div class="container">
+        <div class="row">
+            <!-- Game images carousel -->
+            <div class="col-md-4">
+                <div class="my-3">
+                    <img src="../../../assets/images/stray-cover.jpg" class="d-block w-100 rounded shadow-5" alt="...">
+                </div>
+                <div id="thumbCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../../../assets/images/stray-bg-1.png" class="d-block w-100 rounded shadow-5"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../../assets/images/stray-bg-2.jpg" class="d-block w-100 rounded shadow-5"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../../assets/images/stray-bg-3.jpg" class="d-block w-100 rounded shadow-5"
+                                alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#thumbCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-transparent" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#thumbCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-transparent" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Game images carousel -->
+
+            <!-- Game info -->
+            <div class="col-md-8 my-2">
+                <div class="card bg-transparent">
+
+                    <!-- Breadcrumb -->
+                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='lightSeaGreen' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' /%3E%3C/svg%3E&#34;);"
+                        aria-label="breadcrumb">
+                        <div class="breadcrumb flex f-wrap my-2">
+                            <span class="breadcrumb-item flex align-center">
+                                <a href="/" class="t-color">Home</a>
+                            </span>
+                            <span class="breadcrumb-item">
+                                <a href="/product" title="Playstation 4">Playstation 4</a>
+                            </span>
+                            <span class="breadcrumb-item">
+                                <a href="/product" title="Jogos">Jogos</a>
+                            </span>
+                            <span class="breadcrumb-item">
+                                <a href="/product" title="Jogos de Tiro e Guerra">Jogos de Tiro e
+                                    Guerra</a>
+                            </span>
+                        </div>
+                    </nav>
+                    <!-- Breadcrumb -->
+
+                    <!-- Header -->
+                    <div class="card-body">
+                        <h2 class="fw-bold">Stray</h2>
+                        <div class="d-flex justify-content-between border-bottom">
+                            <p>Código:
+                                <span class="text-muted">51230</span>
+                            </p>
+                            <p>Desenvolvedora:
+                                <span class="text-muted">Annapurna</span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Header -->
+
+                    <!-- Price area -->
+                    <div class="card-body">
+                        <h3 class="fw-bold">R$ 299,00</h3>
+                        <h6 class="fw-bold text-muted">R$ 269,91
+                            <span class="fw-normal fs-6 text-muted"> à vista com desconto</span>
+                        </h6>
+                        <h6 class="fw-bold text-muted">12x
+                            <span class="fw-normal fs-6 text-muted">de</span>
+                            R$ 24,99
+                            <span class="fw-normal fs-6 text-muted">sem juros</span>
+                        </h6>
+                        <div class="mt-4 d-flex flex-column">
+                            <div class="col-md-3 d-flex">
+                                <button class="btn btn-link px-2 add-remove"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-dash-lg" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z" />
+                                    </svg>
+                                </button>
+
+                                <input id="form1" min="0" name="quantity" value="2" type="number"
+                                    class="form-control form-control-sm acc text-muted arrows" />
+
+                                <button class="btn btn-link px-2 pt-1 add-remove"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <app-button class="w-100 my-2" text="Comprar"></app-button>
+                            <p class="fw-bold text-muted align-self-end">Disponibilidade:
+                                <span>Restam 5 unidades</span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Price area -->
+                </div>
+            </div>
+            <!-- Game info -->
+
+            <!-- Description -->
+            <div class="card-body my-4">
+                <div class="desc-title my-4">
+                    <span class="fw-bold fs-3 position-relative">DESCRIÇÃO</span>
+                </div>
+                <p class="mt-4 text-muted">Perdido, sozinho e separado de sua família, um gato de rua precisa solucionar
+                    um antigo
+                    mistério para
+                    escapar de uma cidade cibernética há muito esquecida. Stray é um jogo de aventura de terceira pessoa
+                    protagonizado por um gato, que se passa nos becos detalhados de neon de uma cidade cibernética
+                    decadente e seus ambientes sombrios e marginalizados. Veja o mundo através dos olhos de um gato
+                    perdido e interaja com o ambiente de formas divertidas, enquanto este felino aventureiro desvenda um
+                    mistério antigo para escapar e encontrar um caminho para casa.</p>
+
+                <!-- Product details table -->
+                <div class=" desc-title my-4">
+                    <span class="fw-bold fs-3 position-relative">FICHA TÉCNICA</span>
+                </div>
+                <table class="table table-dark table-striped table-borderless">
+                    <tbody>
+                        <tr>
+                            <td>Código</td>
+                            <td>51230</td>
+                        </tr>
+                        <tr>
+                            <td>Título</td>
+                            <td>Stray</td>
+                        </tr>
+                        <tr>
+                            <td>Plataforma</td>
+                            <td>PlayStation 5</td>
+                        </tr>
+                        <tr>
+                            <td>Gênero</td>
+                            <td>Aventura</td>
+                        </tr>
+                        <tr>
+                            <td>Multiplayer</td>
+                            <td>Offline</td>
+                        </tr>
+                        <tr>
+                            <td>Número de Jogadores Online</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Número de Jogadores Offline</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Desenvolvedora</td>
+                            <td>Annapurna</td>
+                        </tr>
+                        <tr>
+                            <td>Áudio</td>
+                            <td>Inglês</td>
+                        </tr>
+                        <tr>
+                            <td>Legenda(s)</td>
+                            <td>Português</td>
+                        </tr>
+                        <tr>
+                            <td>Conteúdo</td>
+                            <td>Digital</td>
+                        </tr>
+                        <tr>
+                            <td>Fabricante</td>
+                            <td>Annapurna</td>
+                        </tr>
+                        <tr>
+                            <td>Marca</td>
+                            <td>Annapurna</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Product details table -->
+
+            </div>
+            <!-- Description -->
+        </div>
+    </div>
+</section>

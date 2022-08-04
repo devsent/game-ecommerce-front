@@ -1,0 +1,160 @@
+<header class="header">
+    <!-- Container -->
+    <div class="container d-flex align-items-center p-3">
+        <!-- Hamburger Menu -->
+        <a class="d-flex text-decoration-none" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button"
+            aria-controls="offcanvasMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-list navbar-toggler-icon me-1" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+            Menu
+        </a>
+
+        <!-- Logo -->
+        <a class=" text-decoration-none mx-3" href="#">
+            <h1>U3G</h1>
+        </a>
+
+        <!-- Search form -->
+        <form class="d-flex w-100 align-items-centerform-search">
+            <input type="search" class="form-control rounded-0" placeholder="Procure jogos, consoles, acessórios..."
+                aria-label="Procure jogos, consoles, acessórios..." />
+        </form>
+
+        <!-- Navbar -->
+        <app-nav></app-nav>
+
+        <!-- Offcanvas content -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas-header" id="offheader">
+                <h6 class="offcanvas-title" id="offcanvasMenuLabel">Menu</h6>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-header">
+                <h4 class="offcanvas-title" id="offcanvasMenuLabel">Categorias</h4>
+            </div>
+
+            <!-- Offcanvas body -->
+            <div class="offcanvas-body">
+
+                <!-- Accordion -->
+                <div class="accordion accordion-flush" id="accordionMenu">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                PlayStation 4
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionMenu">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action">Acessórios</a>
+                                <a href="#" class="list-group-item list-group-item-action">Gift Cards</a>
+                                <a href="#" class="list-group-item list-group-item-action">Jogos</a>
+                                <a href="#" class="list-group-item list-group-item-action">VR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                PlayStation 5
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionMenu">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action">Acessórios</a>
+                                <a href="#" class="list-group-item list-group-item-action">Gift Cards</a>
+                                <a href="#" class="list-group-item list-group-item-action">Jogos</a>
+                                <a href="#" class="list-group-item list-group-item-action">VR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Xbox Series X | S
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionMenu">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action">Acessórios</a>
+                                <a href="#" class="list-group-item list-group-item-action">Gift Cards</a>
+                                <a href="#" class="list-group-item list-group-item-action">Jogos</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                Xbox One
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionMenu">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action">Acessórios</a>
+                                <a href="#" class="list-group-item list-group-item-action">Gift Cards</a>
+                                <a href="#" class="list-group-item list-group-item-action">Jogos</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                Nintendo Switch
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFive" data-bs-parent="#accordionMenu">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action">Acessórios</a>
+                                <a href="#" class="list-group-item list-group-item-action">Gift Cards</a>
+                                <a href="#" class="list-group-item list-group-item-action">Jogos</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                aria-controls="flush-collapseSix">
+                                PC
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingSix" data-bs-parent="#accordionMenu">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action">Acessórios</a>
+                                <a href="#" class="list-group-item list-group-item-action">Gift Cards</a>
+                                <a href="#" class="list-group-item list-group-item-action">Jogos</a>
+                                <a href="#" class="list-group-item list-group-item-action">Hardware</a>
+                                <a href="#" class="list-group-item list-group-item-action">Periféricos</a>
+                                <a href="#" class="list-group-item list-group-item-action">VR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion -->
+            </div>
+            <!-- Offcanvas body -->
+        </div>
+        <!-- Offcanvas content -->
+    </div>
+    <!-- Container -->
+</header>

@@ -1,0 +1,57 @@
+/* Responsive */
+@media (max-width: 576px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+/* Offcanvas */
+
+.offcanvas-header {
+    box-shadow: 0 2px 16px rgb(0 0 0 / 40%);
+}
+
+.btn-close {
+    filter: invert(56%) sepia(78%) saturate(1724%) hue-rotate(123deg) brightness(93%) contrast(82%);
+}
+
+/* Accordion */
+.accordion-item {
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    background: transparent;
+}
+
+.accordion-button {
+    background: transparent;
+    color: #8894ac;
+}
+
+.accordion-button:hover {
+    background: rgba(0, 0, 0, 0.25);
+    color: #17b890;
+}
+
+.accordion-button:focus {
+    border: 0.1rem solid #17b890;
+    box-shadow: 0 0 0 0.1rem rgb(23 184 144);
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.accordion-button::after {
+    filter: invert(56%) sepia(78%) saturate(1724%) hue-rotate(123deg) brightness(93%) contrast(82%);
+}
+
+/* Lists */
+
+.list-group-item {
+    background: transparent;
+    border: none;
+}
+
+.list-group-item:hover {
+    background: rgba(0, 0, 0, 0.25);
+}
