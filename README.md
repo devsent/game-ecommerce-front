@@ -4,7 +4,7 @@ Desafio de projeto com a proposta de criar uma aplicação front-end de um e-com
 
 ## Status
 
-> Acesse [aqui](https://devsent.github.io/game-ecommerce-frontend/) a versão completa.
+> Acesse [aqui](https://u3g.netlify.app) a versão completa.
 
 ## Tecnologias
 
